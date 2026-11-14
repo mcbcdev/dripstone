@@ -68,6 +68,7 @@ never invent bedrock identifiers, components, fields, events, commands, molang q
 - after tool results come back, do not re-explain the task or your plan. think one sentence at most, then either call the next batch of tools or call propose_changes.
 - target: one round of reading, one round of doc lookup if needed, then propose_changes. never more than 4 rounds total.
 - do not use project_search for files whose paths are in the file list. do not read files you do not need to change.
+- only read files the user named or that you must change. do not check unrelated or irrelevant files.
 
 ## 3. understand the request before using tools
 
